@@ -1,0 +1,29 @@
+@media screen and (max-width:768px) {
+	header {
+		.header-container {
+			nav {
+				display: none !important;
+			}
+			.dropdown {
+				display: none !important;
+			}
+			.toggle-box {
+				display: block !important;
+			}
+		}
+	}
+	.manages {
+		.grid-manage {
+			grid-template-columns: repeat(1, 1fr);
+		}
+	}
+}
+@media screen and (max-width:400px) {
+	.grid-section {
+		.container {
+			.grid {
+				grid-template-columns: repeat(1, 1fr);
+			}
+		}
+	}
+}
